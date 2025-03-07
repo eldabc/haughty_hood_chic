@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page con Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link href="./src/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="./src/css/bootstrap-icons.min.css">
+    <!-- Custom CSS -->
+    <link href="./src/css/styles.css" rel="stylesheet">
+     <!-- Estilos personalizados -->
+     <style>
+        
+    </style>
+</head>
+<body>
+    <header>      
+        <div class="nav-container">
+            <div class="row">
+                <div class="col-md-3 con-title">
+                    <a href="#" class="link-title"><img class="img-title" src="./src/img/img_title.png"></a>
+                </div>
+                <div class="col-md-6">
+                    <!-- Navbar -->
+                    <nav class="navbar navbar-expand-lg navbar-light con-navbar">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse con-navbar" id="navbarNav">
+                            <ul class="navbar-nav navbar-ul">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">HOME</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">SHOP</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ABOUT US</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">BLOG</i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="col-md-3">
+                    <a class="nav-link" href="#"><i class="bi-bag shopping-bag"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jumbotron -->
+        <div class="row row-jumbotron">
+            <div class="jumbotron col-md-6">
+                <img src="./src/img/fondo_header.png" class="shadow-img" alt="">
+                <h1 class="header-title">Discover and<br>Find Your Own<br>Fashion!</h1>
+                <p class="lead">Explore our curated collection of stylish clothing and<br>accessories tailored to your unique taste.</p>
+                <a class="btn btn-primary btn-lg btn-explore" href="#" role="button">EXPLORE NOW</a>
+            </div>
+            <div class="jumbotron-img col-md-6">
+                <img class="img-header" src="./src/img/img_header.png">
+            </div>
+        </div>
+    </header>
+    <!-- Categories Section -->
+    <section class="container-fluid category-container text-center py-5">
+        <h2 class="category-title">Categories</h2>
+        <p class="category-description">Immerse yourself in the world of luxury fashion with our meticulously crafted designer clothes!</p>
+
+        <div class="category-row">
+            <div class="d-flex flex-column align-items-center">
+                <div class="category-card">
+                    <img src="./src/img/greeting_cards.png" alt="Greeting Cards">
+                </div>
+                <p class="category-name subtitle">Greeting Cards</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="category-card">
+                    <img src="./src/img/clothing.png" alt="Clothing">
+                </div>
+                <p class="category-name subtitle">Clothing</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="category-card">
+                    <img src="./src/img/candles.png" alt="Candles">
+                </div>
+                <p class="category-name subtitle">Candles</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="category-card">
+                    <img src="./src/img/stationery.png" alt="Stationery">
+                </div>
+                <p class="category-name subtitle">Stationery</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="category-card">
+                    <img src="./src/img/oracle_decks.png" alt="Oracle Decks">
+                </div>
+                <p class="category-name subtitle">Oracle Decks</p>
+            </div>
+        </div>
+    </section>
+    <!-- Products Section -->
+    <section class="products-section">
+        <h2 class="products-title">Our Products</h2>
+
+        <div class="category-tabs">
+            <a href="#" class="active">GREETING CARDS</a>
+            <a href="#">CANDLES</a>
+            <a href="#">STATIONERY</a>
+            <a href="#">CLOTHING</a>
+            <a href="#">ORACLE DECKS</a>
+        </div>
+
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                       
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="product-box">
+                        <div class="product">
+                            <img src="./src/img/item_product.png" alt="Oracle Decks">
+                        </div>
+                            <h4>Custom Oracle Cards Printing</h4>
+                            <p>$48.99</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="see-all-btn">See all →</a>
+        </div>
+        
+    </section>  
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./src/img/hood_chic.png" alt="Hood Chic" class="img-about">
+            </div>
+            <div class="col-md-6" style="overflow: hidden;">
+                <div class="con-shadow-about">
+                    <img src="./src/img/fondo_header.png" alt="Hood Chic" class="shadow-about">
+                </div>
+                <h2 class="t-about">Haughty Hood Chic</h2>
+                <p class="p-about">At Haughty Hood Chic, our mission is to empower people through creativity and spirituality, offering unique products that fuse the poetry of Confidence Omenai with meaningful spiritual messages.
+                    We aspire to be the leading brand in spiritual and self-help products, celebrating diversity and cultivating a community that values quality and meaning in its choices.
+                </p>
+                <p class="p-about">We are guided by values of authenticity, quality over quantity, community building, innovation and empowerment. Each product is a tool for reflection and personal growth. Join us on this journey of self-exploration and empowerment!</p>
+            </div>
+        </div>
+    </section>                      
+    <!-- Blog Section -->
+    <section class="container blog-container">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="blog-title">Our blog</h2>
+            <a href="#" class="see-all-btn">See all →</a>
+        </div>
+        <p class="blog-description">Nunc eleifend ante at elementum blandit. Cras dictum elementum ligula, sit amet faucibus arcu.</p>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="./src/img/item_blog.png" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-meta">30 Jan - Admin</p>
+                        <p class="blog-title-text">Fusce vel purus a erat porta maximus id nec lacus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="./src/img/item_blog.png" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-meta">30 Jan - Admin</p>
+                        <p class="blog-title-text">Fusce vel purus a erat porta maximus id nec lacus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="blog-card">
+                    <img src="./src/img/item_blog.png" alt="Blog Image">
+                    <div class="blog-content">
+                        <p class="blog-meta">30 Jan - Admin</p>
+                        <p class="blog-title-text">Fusce vel purus a erat porta maximus id nec lacus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <div class="footer-logo">
+                        <img src="./src/img/card_footer.png" alt="Haughty Hood Chic">
+                        <div class="footer-social-icons mt-3">
+                            <a href="#"><i class="bi bi-facebook"></i></a>
+                            <a href="#"><i class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-md-4 footer-links">
+                    <h5>SHOP</h5>
+                    <ul>
+                        <li><a href="#">Products</a></li>
+                    </ul>
+                    <h5 class="mt-3">COMPANY</h5>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 footer-links">
+                    <h5>STAY UP TO DATE</h5>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom text-center mt-4">
+                All Rights Reserved Haughty Hood Chic 2025
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="./src/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
